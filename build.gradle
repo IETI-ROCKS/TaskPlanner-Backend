@@ -40,5 +40,6 @@ sonarqube {
 		property "sonar.projectKey", "IETI-ROCKS_TaskPlanner-Backend"
 		property "sonar.organization", "ieti-rocks"
 		property "sonar.host.url", "https://sonarcloud.io"
+		property 'sonar.coverage.exclusions', ['**/TaskplannerBackendApplication.java']
 	}
 }
